@@ -1,0 +1,9 @@
+.editor-input{
+    height: 40vh;
+}
+
+.Btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

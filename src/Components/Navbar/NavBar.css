@@ -1,0 +1,22 @@
+.user-welcome {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-welcome p {
+  margin-top: 10px;
+  color: rgb(252, 248, 11);
+}
+
+.navbar {
+  height: 70px;
+}
+
+.navbar-brand {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bolder;
+}

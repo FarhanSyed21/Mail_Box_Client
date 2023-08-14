@@ -1,0 +1,145 @@
+.folder-list {
+  background-color: lightgray;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+.folder-list .nav-link {
+  color: black;
+  padding: 10px 5px;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.folder-list .nav-link.active {
+  background-color: rgb(118, 200, 228);
+  border-radius: 5px;
+  color: white;
+}
+
+.mail-view {
+  width: 70%;
+  margin-top: 20px;
+  border-right: 1px solid #ddd;
+  padding-right: 10px;
+}
+
+.mail-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: filter 0.2s, opacity 0.2s;
+}
+
+.mail-item:hover {
+  background-color: #f5f5f5;
+}
+
+.mail-item.read {
+  opacity: 0.8;
+}
+
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #4285f4;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.delete-button {
+  margin-left: auto;
+}
+
+.delete-button button {
+  cursor: pointer;
+  transition: color 0.3s, box-shadow 0.2s, padding 0.2s;
+  padding: 4px 8px;
+}
+
+.delete-button button:hover {
+  color: #ff5722;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 6px 10px;
+}
+
+.delete-button button:focus {
+  outline: none;
+}
+
+.checkbox,
+.star {
+  margin-right: 10px;
+}
+
+.snippet {
+  flex-grow: 1;
+  margin-right: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.details {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.expanded-content {
+  white-space: normal;
+  overflow: visible;
+}
+
+.read {
+  list-style: none;
+  display: flex;
+}
+
+.Unread {
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+}
+
+.Unread:hover {
+  cursor: pointer;
+}
+
+.inbox-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.inbox-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.sub:hover {
+  text-decoration: underline;
+}
+
+.sender {
+  margin-right: 30px;
+}
+
+.empty-inbox {
+  text-align: center;
+  padding: 20px;
+}
+
+.empty-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.empty-message {
+  font-size: 18px;
+  color: #555;
+}
